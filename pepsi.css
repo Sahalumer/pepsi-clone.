@@ -1,0 +1,242 @@
+@font-face {
+    font-family: gen;
+    src: url(./pepsi/PepsiOwners-Regular\ \(1\)\ \(1\).ttf);
+    font-weight: 700;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #0025ff;
+    /* background-color: #000; */
+}
+.main{
+    overflow-x: hidden;
+}
+.header-main{
+    width: 100%;
+    height: 96px;
+    border: 0;
+    border-style: solid;
+    background-color: #0025ff;
+    position: fixed;
+    z-index: 99;
+    /* opacity: .5; */
+}
+.cunt{
+    margin-top: 6.5vw;
+    /* transform: translateY(10vw); */
+}
+.header-left{
+    width: 58px;
+    height: 58px;
+}
+.logo{
+    width: 58px;
+    height: 58px;
+    margin-left: 35px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.header-center{
+    display: flex;
+    margin-top: -23px;
+    color: white;
+    font-family:gen;
+    font-size: 12px;.
+}
+.first-link{
+    padding-left: 155px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+.second-link{
+    padding-left: 48px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+.third-link{
+    padding-left: 38px;
+    cursor: pointer;
+    
+}
+.header-right{
+    justify-content: center;
+    font-family: gen;
+}
+.buy-pepsi{
+    margin-left: 172vh;
+    padding-left: 23px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 23px;
+    border-radius: 15px;
+    background: transparent;
+    color: white;
+    font-family:gen;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    border-top: 3px solid #fff;
+    transform: translateY(-23px);
+    cursor: pointer;
+}
+.video{
+    padding: 0%;
+    margin: 0%;
+    border: none;
+}
+.container{
+    background-color: black;
+    height: 380px;
+    font-family: gen;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.first{
+    color: #fff;
+    font-size: 82px;
+    margin-bottom: 0%;
+}
+.second{
+    color: #fff;
+    font-size: 50px;
+    transform: translateY(-28px);
+}
+.third{
+    background-color: #0025ff;
+    color: white;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: gen;
+    border-style: none;
+    margin-top: 20px;
+}
+.image{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.all-container{
+    background-color: black;
+    width: 100%;
+    height: 380px;
+}
+.social-cap{
+    color: #0025ff;
+    text-align: center;
+    font-family: gen;
+    font-size: 50px;
+}
+.social{
+    display: flex;
+    width: 1370px;
+    height: 280px;
+    margin-left: 80px;
+    border-style: solid;
+    border-color: #0025ff;
+    border-width: 3px;
+}
+.hello{
+  width: 25vw;
+  height: 100%;
+  overflow: hidden;  
+}
+.hello img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease 0.45s;
+}
+.hello:hover img{
+   scale: 1.2;
+   rotate: 6deg;
+}
+.last{
+    width: 100%;
+    height: 200px; 
+    display: flex;
+}
+.pepsi-logo{
+    height: 100%;
+    width: 20%;
+}
+.about{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    font-family: gen;
+    font-size: 16px;
+    color: white;
+    margin-top: 90px;
+}
+
+.adjst{
+    height: 103px;
+    width: 103px;
+    margin-top: 85px;
+    margin-left: 30px;
+}
+.paragraph-one{
+    padding-left: 0;
+    padding-right: 55px;
+}
+.paragraph-two{
+    padding-left: 0;
+    padding-right: 75px;
+}
+.paragraph-three{
+    padding-left: 0;   
+}
+.line-one{
+    padding-bottom: 0%;
+    cursor: pointer;
+}
+.last p,.social-platforms img{
+    transition: all ease 0.5s;
+}
+.line-two{
+    padding-top: 9px;
+    padding-bottom: 0%;
+    cursor: pointer;
+}
+.line-three{
+    padding-top: 9px;
+    padding-bottom: 0%;
+    cursor: pointer;
+}
+.social-platforms{
+    display: flex;
+    height: 28px;
+    width: 28px;
+}
+.social-platforms img{
+    margin-left: 23px;
+    transform: translateY(7.5vw);
+}
+.cookie{
+    font-family: gen;
+    font-size: 16px;
+    color: #fff;
+    /* transform: translateY(17vw); */
+    margin-left: 13vw;
+    margin-top: 15vw;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.last p:hover{
+    opacity: 0.5;
+}
+.social-platforms img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
